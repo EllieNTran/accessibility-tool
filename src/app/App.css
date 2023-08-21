@@ -1,0 +1,93 @@
+body {
+  background-color: #070221;
+  font-family: "Open Sans";
+}
+
+#mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/banner.png);
+  margin-bottom: 55px;
+}
+
+#title {
+  color: white;
+  margin-left: -750px;
+  margin-top: 100px;
+}
+
+.buttons-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.buttons {
+  height: 160px;
+  width: 610px;
+}
+
+.icons-container {
+  order: -1;
+  display: flex;
+}
+
+.dashText-container,
+.beyondText-container {
+  font-size: 30px;
+  text-transform: none;
+}
+
+#beyond-button {
+  background-color:#2E2644;
+}
+
+#dash-button {
+  background-color:#2E2644;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashText-container {
+  margin-right: 14%;
+}
+
+#dash-image {
+  height: 160px;
+  width: 350px;
+  margin-left: -16px;
+  margin-top: 7px;
+  opacity: 80%;
+}
+
+.beyondText-container {
+  margin-right: 11%;
+}
+
+#beyond-image {
+  margin-left: -16px;
+  margin-top: 7px;
+}
+
+.run-checks-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#run-checks-button{
+  background-color: #230A5E;
+  height: 80px;
+  width: 270px;
+  border-radius: 50px;
+  border: 1px solid #D0C9D6;
+  font-size: 24px;
+  color: white;
+  text-transform: none;
+}
+ 
+
+ 
