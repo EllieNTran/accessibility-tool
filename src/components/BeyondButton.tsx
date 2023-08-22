@@ -6,17 +6,17 @@ const BeyondImage = () => (
     <Image src={beyondImage} alt="Beyond" id="beyond-image"/>
   );
   
-const BeyondButton = () => {
-    return (
+const BeyondButton = (): JSX.Element => {
+  return (
     <div id="BeyondButton">
-        <Button className="buttons" id='dash-button' variant="contained">
-            <div className="icon-container">
-                <BeyondImage />
-            </div>
-            <div className="beyondText-container">
-                Beyond
-            </div>
-        </Button>
+      <Button className="buttons" id='dash-button' variant="contained">
+          <div className="icon-container">
+              <BeyondImage />
+          </div>
+          <div className="beyondText-container">
+              Beyond
+          </div>
+      </Button>
     </div>
   );
 };
