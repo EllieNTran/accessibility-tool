@@ -21,4 +21,4 @@ const BeyondButton = (): JSX.Element => {
   );
 };
 
-  export default BeyondButton;
+export default BeyondButton;
