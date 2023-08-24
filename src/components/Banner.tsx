@@ -25,16 +25,4 @@ const Banner = (): JSX.Element => {
   )
 }
 
-
-// const Banner = (): JSX.Element => {
-//   return (
-//     <Box 
-//      sx={{ minHeight: "35vh", minWidth: "90vw", flexGrow: 1,  mt: "10px", alignItems: "flex-end"}}>
-//       <Typography variant= "h2" fontSize= "3.5rem" position= "relative">
-//         Accessibility Tool
-//       </Typography>
-//     </Box>
-//   )
-// }
-
 export default Banner;
