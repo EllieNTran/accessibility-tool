@@ -1,20 +1,13 @@
 body {
-  background-color: #070221;
   font-family: "Open Sans";
 }
 
 #mainBox {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(../images/banner.png);
-  margin-bottom: 55px;
-}
-
-#title {
-  color: white;
-  margin-left: -750px;
-  margin-top: 100px;
+  margin-bottom: 55px; */
 }
 
 .buttons-container {

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Accessibility Tool',
-  description: 'Tool that checks how accessible a website is',
+  description: 'Tool that assesses how accessible a website is',
 }
 
 export default function RootLayout({

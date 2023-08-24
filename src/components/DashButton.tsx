@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button';
-import dashImage from '../images/dash-image.png';
+import dashImage from './images/dash-image.png';
 import Image from 'next/image';
 
 const DashImage = (): JSX.Element => {
@@ -11,7 +11,13 @@ const DashImage = (): JSX.Element => {
 const DashButton = (): JSX.Element => {
   return (
     <div id="DashButton">
-      <Button className="buttons" id='dash-button' variant="contained">
+      <Button sx={{
+        variant: "contained",
+        height: "160px",
+        width: "610px",
+        backgroundColor: "#2E2644"
+      }}
+      >
         <div className="icon-container">
           <DashImage />
           </div>

@@ -1,4 +1,4 @@
-import beyondImage from '../images/beyond-image.png';
+import beyondImage from './images/beyond-image.png';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
 
