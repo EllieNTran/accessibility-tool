@@ -1,3 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
 body {
   background-color: #070221;
   font-family: "Open Sans";
@@ -7,8 +14,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner.png);
-  margin-bottom: 55px;
+  background-image: url(../app/images/banner.png);
+  margin-bottom: 55px; 
 }
 
 #title {
@@ -88,6 +95,4 @@ body {
   color: white;
   text-transform: none;
 }
- 
-
- 
+  
