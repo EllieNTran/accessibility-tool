@@ -1,11 +1,21 @@
-import { NextApiRequest } from "next";
+import { NextApiRequest, NextApiResponse } from "next";
 
-export async function GET(request: NextApiRequest) {
-    const users = [
-        {id: 1, name: "one"},
-        {id: 2, name: "two"},
-        {id: 3, name: "three"},
-    ];
+// export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+//   try {
+//     const users = [
+//       { id: 1, name: "one" },
+//       { id: 2, name: "two" },
+//       { id: 3, name: "three" },
+//     ];
 
-    return new Response(JSON.stringify(users))
-}
+//     res.status(200).json(users);
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({ error: "Internal Server Error" });
+//   }
+// }
+
+
+export default function handler(req:NextApiRequest, res:NextApiResponse) {
+    res.status(200).json({ message: "Hello, World!" });
+  }

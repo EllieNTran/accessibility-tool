@@ -14,11 +14,21 @@ module.exports = {
       colors: {
         'dark-purple': '#070221',
         'medium-purple': '#230A5E',
-        'light-purple': '#2E2644'
+        'light-purple': '#2E2644',
+        'navbar': '#040111'
       },
       width: {
         '132': '36rem',
-      }
+      },
+      backgroundImage: {
+        'banner': 'url("/images/banner.png")',
+      },
+      borderColor: {
+        'cyan-300': '#68d391',
+      },
+      outline: {
+        'cyan-300': '2px solid #68d391',
+      },
     },
   },
   variants: {

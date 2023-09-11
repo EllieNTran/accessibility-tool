@@ -11,6 +11,7 @@ const styles = {
     minWidth: "90vw",
     flexGrow: 1,
     mt: "10px",
+    
     backgroundImage: 'url("./images/banner.png")',
     backgroundRepeat: "no-repeat"
   },
@@ -19,7 +20,7 @@ const styles = {
 const Banner = (): JSX.Element => {
   return (
     <Box sx={styles.container}>
-      <Typography variant= "h2" fontSize= "3.5rem" color="white" mb= "3%" ml= "3%">
+      <Typography variant= "h2" fontSize= "3.5rem" color="white" mb= "10%" ml= "5%" >
         Accessibility Tool
       </Typography>
     </Box>

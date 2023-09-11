@@ -23,10 +23,10 @@ function RunChecksButton (): JSX.Element {
     //   console.log(error);
     // }
   }
+  
 
   return (
-    <button className="rounded-full border bg-violet-900 py-6 px-10 text-white text-xl normal-case 
-    hover:bg-medium-purple text-center text-sm font-inter flex items-center justify-center"
+    <button
     onClick={handleClick}>
     {/* <Link href="/api/npm/${appName}"> */}
       Run Npm Command
